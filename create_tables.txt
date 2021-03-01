@@ -1,0 +1,18 @@
+CREATE DATABASE parse;
+
+CREATE TABLE posts(
+  id  INT  ,
+  user_id INT ,
+  title  TINYTEXT ,
+  body  TINYTEXT ,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE comments(
+  id  INT  ,
+ postId INT ,
+  name  TINYTEXT ,
+  email  TINYTEXT ,
+  body  TINYTEXT ,
+  PRIMARY KEY (id)
+);
