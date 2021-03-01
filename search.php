@@ -1,7 +1,7 @@
 
 <html>
 <form  action="search.php" method="post">
-    <p><input name="search" placeholder="найти комммментарий" type="text" size="30" minlength="3">
+    <p><input name="search" placeholder="найти комментарий" type="text" size="30" minlength="3">
     <p><input type="submit" name="submit" value="Найти"></p>
 </form>
 
